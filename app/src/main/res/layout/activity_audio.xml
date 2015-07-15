@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="multiplexaure.canvasapplication.Audio.AudioActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayoutAudio">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:gravity="center_horizontal|bottom"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="76dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/songNameText"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical|center_horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/previousButton"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/previous"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/playButton"
+                android:src="@drawable/play"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:background="@drawable/button"
+                android:layout_marginLeft="10dp" />
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/nextButton"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/next"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:background="@drawable/button"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

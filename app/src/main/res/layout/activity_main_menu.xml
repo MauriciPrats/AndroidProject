@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="multiplexaure.canvasapplication.MainMenu.MainMenu"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frameLayoutMainMenu"></FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/brickBreakerButton"
+            android:text="Brick Breaker"
+            android:background="@drawable/button" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rankingButton"
+            android:text="Ranking"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Music Player"
+            android:id="@+id/audioButton"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:id="@+id/profileButton"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:id="@+id/calculatorButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:id="@+id/othersButton"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button" />
+
+    </LinearLayout>
+
+</FrameLayout>

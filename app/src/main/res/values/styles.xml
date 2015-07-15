@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

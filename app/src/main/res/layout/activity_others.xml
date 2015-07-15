@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="multiplexaure.canvasapplication.Others.OthersActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frameLayoutOthers"></FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internet"
+            android:id="@+id/internetButton"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneButton"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="Phone Call"
+            android:gravity="center_vertical"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/internetImage"
+            android:layout_gravity="center_horizontal"
+            android:maxHeight="200dp"
+            android:maxWidth="200dp"
+            android:minHeight="200dp"
+            android:minWidth="200dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internet Image"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</FrameLayout>
